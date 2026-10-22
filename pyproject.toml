@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archi-evidence"
+version = "0.1.0"
+description = "An evidence-oriented study-note retrieval and bounded tool-use agent"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+web = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[tool.setuptools.packages.find]
+include = ["archi_agent*"]

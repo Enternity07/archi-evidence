@@ -1,0 +1,17 @@
+[
+  {"id":"q01","question":"采光需要记录哪些条件？","source":"01_daylight.md"},
+  {"id":"q02","question":"遮阳方案要比较什么？","source":"01_daylight.md"},
+  {"id":"q03","question":"自然通风路径包括什么？","source":"02_ventilation.md"},
+  {"id":"q04","question":"穿堂风如何观察？","source":"02_ventilation.md"},
+  {"id":"q05","question":"RAG 的流程是什么？","source":"03_rag.md"},
+  {"id":"q06","question":"BM25 与向量检索的区别？","source":"03_rag.md"},
+  {"id":"q07","question":"Agent Loop 如何终止？","source":"04_agent.md"},
+  {"id":"q08","question":"提示注入的风险？","source":"04_agent.md"},
+  {"id":"q09","question":"API 密钥如何保存？","source":"05_python_api.md"},
+  {"id":"q10","question":"SQLite 事务有什么作用？","source":"05_python_api.md"},
+  {"id":"q11","question":"Hit@k 衡量什么？","source":"06_evaluation.md"},
+  {"id":"q12","question":"MRR 如何计算？","source":"06_evaluation.md"},
+  {"id":"u01","question":"火星土壤的化学成分？","source":null},
+  {"id":"u02","question":"如何烹饪红烧排骨？","source":null},
+  {"id":"u03","question":"足球世界杯冠军是谁？","source":null}
+]

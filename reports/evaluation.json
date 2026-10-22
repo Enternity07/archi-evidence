@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-10-21T15:07:43.816335+00:00",
+  "python": "3.12.14",
+  "mode": "offline-retrieval-only",
+  "corpus": {
+    "files": 6,
+    "chunks": 22,
+    "retriever": "sqlite-fts5-bm25-cjk-bigram"
+  },
+  "answerable_cases": 12,
+  "unanswerable_cases": 3,
+  "hit_at_3": 1.0,
+  "mrr_at_3": 1.0,
+  "unanswerable_empty_rate": 0.6666666666666666,
+  "limitations": "15 个自建演示样例，无训练测试集隔离；不评估在线模型、语义正确性或真实用户分布。",
+  "cases": [
+    {
+      "id": "q01",
+      "question": "采光需要记录哪些条件？",
+      "source": "01_daylight.md",
+      "retrieved": [
+        "01_daylight.md",
+        "02_ventilation.md",
+        "01_daylight.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q02",
+      "question": "遮阳方案要比较什么？",
+      "source": "01_daylight.md",
+      "retrieved": [
+        "01_daylight.md",
+        "01_daylight.md",
+        "02_ventilation.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q03",
+      "question": "自然通风路径包括什么？",
+      "source": "02_ventilation.md",
+      "retrieved": [
+        "02_ventilation.md",
+        "02_ventilation.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q04",
+      "question": "穿堂风如何观察？",
+      "source": "02_ventilation.md",
+      "retrieved": [
+        "02_ventilation.md",
+        "01_daylight.md",
+        "01_daylight.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q05",
+      "question": "RAG 的流程是什么？",
+      "source": "03_rag.md",
+      "retrieved": [
+        "03_rag.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q06",
+      "question": "BM25 与向量检索的区别？",
+      "source": "03_rag.md",
+      "retrieved": [
+        "03_rag.md",
+        "06_evaluation.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q07",
+      "question": "Agent Loop 如何终止？",
+      "source": "04_agent.md",
+      "retrieved": [
+        "04_agent.md",
+        "04_agent.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q08",
+      "question": "提示注入的风险？",
+      "source": "04_agent.md",
+      "retrieved": [
+        "04_agent.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q09",
+      "question": "API 密钥如何保存？",
+      "source": "05_python_api.md",
+      "retrieved": [
+        "05_python_api.md",
+        "05_python_api.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q10",
+      "question": "SQLite 事务有什么作用？",
+      "source": "05_python_api.md",
+      "retrieved": [
+        "05_python_api.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q11",
+      "question": "Hit@k 衡量什么？",
+      "source": "06_evaluation.md",
+      "retrieved": [
+        "06_evaluation.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "q12",
+      "question": "MRR 如何计算？",
+      "source": "06_evaluation.md",
+      "retrieved": [
+        "06_evaluation.md",
+        "01_daylight.md",
+        "03_rag.md"
+      ],
+      "first_relevant_rank": 1,
+      "no_results": false
+    },
+    {
+      "id": "u01",
+      "question": "火星土壤的化学成分？",
+      "source": null,
+      "retrieved": [
+        "01_daylight.md"
+      ],
+      "first_relevant_rank": null,
+      "no_results": false
+    },
+    {
+      "id": "u02",
+      "question": "如何烹饪红烧排骨？",
+      "source": null,
+      "retrieved": [],
+      "first_relevant_rank": null,
+      "no_results": true
+    },
+    {
+      "id": "u03",
+      "question": "足球世界杯冠军是谁？",
+      "source": null,
+      "retrieved": [],
+      "first_relevant_rank": null,
+      "no_results": true
+    }
+  ]
+}
