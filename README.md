@@ -130,3 +130,7 @@ docker run --rm -p 127.0.0.1:8000:8000 archi-evidence
 本项目采用 AI 辅助编程完成初版，用于学习和作品展示。请亲自运行、读懂、修改，再在面试中说明自己的实现与取舍。样例笔记是原创教学材料，不是建筑设计规范。
 
 协议格式参考 [DeepSeek Tool Calls](https://api-docs.deepseek.com/guides/tool_calls/)。许可证见 `LICENSE`。
+
+## 产品方案
+
+[产品需求、功能取舍与验收说明](docs/PRODUCT.md)补充了用户场景、核心流程、验收标准和待验证指标。用户访谈、试用与效果数据尚未采集。
